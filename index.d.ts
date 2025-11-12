@@ -4,8 +4,8 @@
  * If you modify this file, put your GitHub info here as well (for easy contacting purposes)
  */
 import { Component } from 'react';
-import { ViewStyle, StyleProp } from 'react-native';
-import { RNCameraProps, BarCodeReadEvent, Constants } from 'react-native-camera';
+import { StyleProp, ViewStyle } from 'react-native';
+import { BarCodeReadEvent, Constants, RNCameraProps } from 'react-native-vision-camera';
 
 export interface RNQRCodeScannerProps {
   onRead(e: BarCodeReadEvent): void;
